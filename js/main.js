@@ -45,7 +45,7 @@ jQuery(document).ready(function($){
     autoplayTimeout: 6000,
     dots: true,
     lazyLoad: true,
-    nav: false,
+    nav: true,
     responsive: {
       0: {
         items: 1,
