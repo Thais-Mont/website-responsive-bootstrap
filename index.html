@@ -62,9 +62,13 @@
         <div class="col-md-4 align-self-center mb-md-0 mb-4">
           <h1>Lorem ipsum dolor aondeai</h1>
           <h4 class="mb-4 subtitle">Et Sumi kapa namur aondeai rocus pocus</h4>
-          <a href="#" class="btn button-primary btn-primary button d-md-inline-block d-block mb-md-0 mb-2 mr-md-2">Saiba
-            Mais</a>
-          <a href="#"
+
+          <a href="" class="btn button-primary btn-primary button d-md-inline-block d-block mb-md-0 mb-2 mr-md-2 btn-default btn-flat" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-edit"></i>saiba mais</a>
+
+          <!-- <a href="#" class="btn button-primary btn-primary button d-md-inline-block d-block mb-md-0 mb-2 mr-md-2">Saiba
+            Mais</a> -->
+
+          <a href="#contato"
             class="btn button-primary-outline btn-outline-primary button d-md-inline-block d-block mb-md-0 mb-2 mr-md-2">Contato</a>
         </div>
 
@@ -76,6 +80,26 @@
 
   </div>
   <!--//Slider-->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Saiba Mais</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum earum commodi cum fugiat architecto. Atque sapiente sunt sit sequi recusandae velit delectus neque, nam hic necessitatibus deserunt rem nemo laborum.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--//Modal-->
 
   <!--Sobre-->
   <div id="sobre" class="block">
@@ -405,6 +429,49 @@
       </div>
   </div>
   <!--//Depoimentos-->
+<!--Footer-->
+<footer id="contato">
+  <div class="container">
+    <div class="email">
+      <img src="assets/paperplane.svg">
+      <h2 class="title text-center">
+        Fique por dentro das novidades
+      </h2>
+      <h4 class="subtitle text-center mb-4">
+        Et sumi kapa namur aondeia rocus est talarum
+      </h4>
+      <form>
+        <div class="flex-md-grow-1 pe-md-3 pb-md-0 pb-3">
+          <label for="email_input" class="sr-only">Email</label>
+          <input type="email" class="form-control w-100" id="email_input" placeholder="seu email">
+        </div>
+        <div class="flex-grow-1 flex-md-grow-0">
+          <button type="submit" class="btn btn-light button d-md-inline d-block w-100">cadastre-se</button>
+        </div>
+      </form>
+    </div>
+    <div class="logo py-4">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-left-md">
+          <img src="assets/logo.svg" class="img-fluid">
+        </div>
+        <div class="col-md-6 align-self-center text-right ">
+          <ul>
+            <li>
+              <a href="#"><img src="assets/facebook.svg"></a>
+            </li>
+            <li><a href="#"><img src="assets/instagram.svg"></a></li>
+            <li><a href="#"><img src="assets/linkedin.svg"></a></li>
+            <li><a href="#"><img src="assets/twitter.svg"></a></li>
+            <li><a href="#"><img src="assets/youtube.svg"></a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--//Footer-->
 
   <script src="js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
